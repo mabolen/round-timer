@@ -1,5 +1,3 @@
-
-
 const App = () => {
 
     const [breakLength, setBreak] = React.useState(5)
@@ -8,8 +6,6 @@ const App = () => {
     const [timer, setTimer] = React.useState('inactive')
     const [onBreak, setOnBreak] = React.useState(false)
     const [timerLabel, setLabel] = React.useState('Round')
-
-    
 
     const activateTimer = () => {
         timer === 'inactive' ? setTimer('active') : setTimer('inactive');
